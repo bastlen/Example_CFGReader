@@ -1,13 +1,13 @@
-import configparser as cp
-#TODO
-#from source import pcl.PCLHandler as pclh
+from source.pcl import PCLHandler as pclh
+from source import CFGHandler as cfgh
+
 
 def main():
     # read cfg from ini
-
+    cfgh1 = cfgh()
     # do stuff with pcl
     #TODO
-    #pcl1 = pclh()
+    pcl1 = pclh()
     print("main")
 
 
